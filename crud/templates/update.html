@@ -1,0 +1,12 @@
+<form action="" method="post">
+    {% csrf_token %}
+    <div class="modal-header">						
+        <h4 class="modal-title">Add Employee</h4>
+    </div>
+        <div class="modal-body">
+            {{form.as_p}}	
+        </div>
+        <div class="modal-footer">
+        <input type="submit" class="btn btn-success" value="Update Data">
+    </div>
+</form>
